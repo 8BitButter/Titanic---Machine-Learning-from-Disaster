@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-project_name = 'Titanic Project'
+project_name = 'Titanic_Project'
 
 list_of_files=[
     f"src/{project_name}/__init__.py",
