@@ -28,7 +28,6 @@ def read_sql_data():
         logging.info("Connection Established",mydb)
 
         df=pd.read_sql_query('Select * from train_data',mydb)
-        print(df.head())
 
         return df
 
